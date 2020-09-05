@@ -1,0 +1,109 @@
+
+.adm-legend {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+
+    border-color: #e6e6e6;
+    border-width: 1px;
+    border-style: dashed;
+    border-image: initial;
+
+
+    margin: 5px 0;
+    padding: 0;;
+}
+
+.adm-legend-title {
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+
+    margin-left: 20px;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.adm-legend-child {
+    margin: 10px 20px;
+}
+
+.adm-float-right {
+    float: right;
+}
+
+.adm-float-left {
+    float:left;;
+}
+
+.adm-alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.adm-alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.adm-alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.adm-alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.adm-alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.adm-input-error {
+    font-size: 14px;
+    color: #a94442;
+    padding: 2px 0 0 2px;
+}
+
+.goods-image {
+    width: 180px;
+    height: 180px;
+    margin: 10px 10px 0 0;
+    float: left;
+    border:1px dashed #e5e5e5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goods-image img {
+    max-width: 184px;
+    max-height: 184px;
+}
+
+.clear {
+    clear: both;
+}
+
+.width250 {
+    width: 250px;
+}
